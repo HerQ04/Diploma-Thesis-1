@@ -48,6 +48,7 @@ RUN ln -s /opt/conda/etc/profile.d/conda.sh /etc/profile.d/conda.sh && \
 SHELL ["conda", "run", "-n", "base", "/bin/bash", "-c"]
 
 COPY requirements.txt /workspace
+COPY Dataset.ipynb /workspace
 RUN ["conda", "run", "-n", "base", "pip", "install", "-r", "/workspace/requirements.txt"]
 
 WORKDIR /workspace
