@@ -1,13 +1,4 @@
-# Pytorch-Project-Template
+# Diploma Thesis 1
 
-## Todo
-- [ ] Create ssh key pair and copy the public key to ssh-key.pub
-- [ ] Change the password in the Dockerfile
-- [ ] Add necessary apt packages to the Dockerfile
-- [ ] Add necessary pip packages to the requirements.txt
-- [ ] Test container build and run by running `make ssh` (works on linux, send feedback for windows)
 
-## SSH connection
-```
-ssh -v -i <private_key> -o IdentitiesOnly=yes -p 2200  root@<hostname>
-```
+https://docs.google.com/document/d/1kDXJpDS7ks4l06-6n-7pUtJ9nn62qLv9/edit?usp=drive_link&ouid=101724369668974729196&rtpof=true&sd=true
