@@ -49,9 +49,11 @@ SHELL ["conda", "run", "-n", "base", "/bin/bash", "-c"]
 
 COPY requirements.txt /workspace
 COPY Dataset.ipynb /workspace
-COPY Cluster.ipynb /workspace
+COPY KNN.ipynb /workspace
 COPY Train_Linear_Class.ipynb /workspace
 COPY Train_Unet.ipynb /workspace
+COPY Unet_Samples.ipynb /workspace
+COPY Test_FID.ipynb /workspace
 RUN ["conda", "run", "-n", "base", "pip", "install", "-r", "/workspace/requirements.txt"]
 
 WORKDIR /workspace
