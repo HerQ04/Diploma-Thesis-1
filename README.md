@@ -1,12 +1,12 @@
-# Diploma Thesis 1
+# Diploma Thesis: Evaluating Learned Representations of Denoising Diffusion Models for Predictive Tasks
 
-The first part of my Diploma Thesis can be found [here](https://github.com/HerQ04/Diploma-Thesis-1/blob/main/Thesis_1.pdf)
+A detailed analysis of my work can be found here: [here](https://github.com/HerQ04/Diploma-Thesis-1/blob/main/Thesis.pdf)
 
 
 
 
 ## Datasets 
-In my work I used the CIFAR 10 and Flowers 102 dataset, which can be downloaded using the [Dataset.ipynb](https://github.com/HerQ04/Diploma-Thesis-1/blob/main/Dataset.ipynb)
+In my work I used the CIFAR 10, Flowers 102 and STL-10 dataset, which can be downloaded using the [Dataset.ipynb](https://github.com/HerQ04/Diploma-Thesis-1/blob/main/Dataset.ipynb)
 
 ## U-Net (backbone)
 To extract the latent space representation of given images, I used parts of an unconditional denoising diffusion probability model. The model training can be found in [Train_Unet.ipynb](https://github.com/HerQ04/Diploma-Thesis-1/blob/main/Train_Unet.ipynb)
